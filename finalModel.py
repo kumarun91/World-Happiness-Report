@@ -2,14 +2,14 @@
 """
 Created on Thu May 04 03:43:47 2017
 
-@author: muthu
+@author: arun
 """
 
 # -*- coding: utf-8 -*-
 """
 Created on Tue May 02 01:21:30 2017
 
-@author: muthu
+@author: arun
 """
 #from __future__ import division
 import numpy as np
@@ -17,9 +17,9 @@ import pandas as py
 import math
 import matplotlib.pyplot as plt
 from sklearn import linear_model
-# Loading the  dataset as training and testing C:\Users\muthu\Desktop\DataScience\FinalProject
-dataFrame = py.read_csv('C:/Users/muthu/Desktop/DataScience/FinalProject/2016.csv')
-testFrame = py.read_csv('C:/Users/muthu/Desktop/DataScience/FinalProject/finalPrediction.csv')
+# Loading the  dataset as training and testing C:\Users\ArunKumarN\Desktop\DataScience\FinalProject
+dataFrame = py.read_csv('C:/Users/ArunKumarN/Desktop/DataScience/FinalProject/2016.csv')
+testFrame = py.read_csv('C:/Users/ArunKumarN/Desktop/DataScience/FinalProject/finalPrediction.csv')
 
 #Using the features
 xtraining = dataFrame[['Economy (GDP per Capita)','Family','Health (Life Expectancy)','Freedom','Trust (Government Corruption)','Generosity']].as_matrix()
