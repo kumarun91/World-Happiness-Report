@@ -2,12 +2,12 @@
 """
 Created on Thu May 04 00:33:12 2017
 
-@author: muthu
+@author: arun
 """
 
 import pandas as py
 import matplotlib.pyplot as plt
-pd = py.read_csv('C:/Users/muthu/Desktop/DataScience/FinalProject/Correlation2015Data.csv')
+pd = py.read_csv('C:/Users/ArunKumarN/Desktop/DataScience/FinalProject/Correlation2015Data.csv')
 #print pd.describe# -*- coding: utf-8 -*-
 """
 Created on Thu May 04 00:33:12 2017
@@ -17,7 +17,7 @@ Created on Thu May 04 00:33:12 2017
 
 import pandas as py
 import matplotlib.pyplot as plt
-pd = py.read_csv('C:/Users/muthu/Desktop/DataScience/FinalProject/Correlation2015Data.csv')
+pd = py.read_csv('C:/Users/ArunKumarN/Desktop/DataScience/FinalProject/Correlation2015Data.csv')
 #print pd.describe()
 from pandas.tools.plotting import scatter_matrix
 scatter_matrix(pd, figsize=(50,50), diagonal='kde')
